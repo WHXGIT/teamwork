@@ -1,0 +1,21 @@
+[INFO ] 2020-09-14 09:15:36 [main] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 47088 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-09-14 09:15:36 [main] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-09-14 09:15:36 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-09-14 09:15:36 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-09-14 09:15:36 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-09-14 09:15:36 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-09-14 09:15:36 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-09-14 09:15:36 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-09-14 09:15:36 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;D:\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;D:\ideal\IntelliJ IDEA 2020.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;.]
+[INFO ] 2020-09-14 09:15:36 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-09-14 09:15:36 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4086 ms
+[INFO ] 2020-09-14 09:15:36 [main] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-09-14 09:15:36 [main] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-09-14 09:15:36 [main] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-09-14 09:15:36 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-09-14 09:15:36 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-09-14 09:15:36 [main] c.kingdee.inte.teamwork.Application - Started Application in 17.594 seconds (JVM running for 26.729)
+[INFO ] 2020-09-14 09:15:36 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-09-14 09:15:36 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-09-14 09:15:36 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+[INFO ] 2020-09-14 09:15:36 [http-nio-10001-exec-6] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

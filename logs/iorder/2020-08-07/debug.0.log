@@ -1,0 +1,57 @@
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - GET "/addr-service", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.kingdee.inte.teamwork.web.controller.IndexController.addrService()
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.w.s.v.freemarker.FreeMarkerView - View name 'modules/addr-service/index2', model {}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.w.s.v.freemarker.FreeMarkerView - Rendering [modules/addr-service/index2.ftl]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - GET "/addr-service", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-3] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.kingdee.inte.teamwork.web.controller.IndexController.addrService()
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-3] o.s.w.s.v.freemarker.FreeMarkerView - View name 'modules/addr-service/index2', model {}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-3] o.s.w.s.v.freemarker.FreeMarkerView - Rendering [modules/addr-service/index2.ftl]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-4] o.s.web.servlet.DispatcherServlet - GET "/code-submit-list", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-4] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.kingdee.inte.teamwork.web.controller.IndexController.codeSubmitList()
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-4] o.s.w.s.v.freemarker.FreeMarkerView - View name 'modules/code-submit-list/index', model {}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-4] o.s.w.s.v.freemarker.FreeMarkerView - Rendering [modules/code-submit-list/index.ftl]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-4] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-6] o.s.web.servlet.DispatcherServlet - GET "/css/code-submit-list.css", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-7] o.s.web.servlet.DispatcherServlet - GET "/plugins/clipboard.min.js", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-8] o.s.web.servlet.DispatcherServlet - GET "/modules/code-submit-list/main.js", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-8] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/**", "classpath:/static/", "classpath:/public/**"]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-6] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/**", "classpath:/static/", "classpath:/public/**"]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-7] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/**", "classpath:/static/", "classpath:/public/**"]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-6] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-8] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-7] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-10] o.s.web.servlet.DispatcherServlet - GET "/lib/axios.min.map", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-10] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/**", "classpath:/static/", "classpath:/public/**"]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-10] o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-10] o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-10] o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-10] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;charset=UTF-8', given [*/*] and supported [application/json, application/json;charset=UTF-8, application/atom+xml, application/x-www-form-urlencoded, application/octet-stream, application/pdf, application/rss+xml, application/xhtml+xml, application/xml, image/gif, image/jpeg, image/png, text/event-stream, text/html, text/markdown, text/plain, text/xml]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Fri Aug 07 13:22:32 CST 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] o.s.web.servlet.DispatcherServlet - GET "/tw-csl/list?pageNum=1&pageSize=20&bugNo=&creator=&keyword=&startTime=&endTime=", parameters={masked}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public com.kingdee.inte.teamwork.common.ViewResult<com.github.pagehelper.PageInfo<com.kingdee.inte.teamwork.pojo.CodeSubmitList>> com.kingdee.inte.teamwork.web.controller.CodeSubmitListController.listCodeSubmitList(int,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-10] o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.0
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] c.k.i.t.m.C.listCodeSubmitList_COUNT - ==>  Preparing: SELECT count(0) FROM t_int_code_reqstion WHERE fstatus <> 3 
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] c.k.i.t.m.C.listCodeSubmitList_COUNT - ==> Parameters: 
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] c.k.i.t.m.C.listCodeSubmitList_COUNT - <==      Total: 1
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] c.k.i.t.m.C.listCodeSubmitList - ==>  Preparing: SELECT * FROM t_int_code_reqstion WHERE fstatus <> 3 order by fcreate_time desc LIMIT ? 
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] c.k.i.t.m.C.listCodeSubmitList - ==> Parameters: 20(Integer)
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] c.k.i.t.m.C.listCodeSubmitList - <==      Total: 4
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json, text/plain, */*] and supported [application/json, application/json;charset=UTF-8, application/atom+xml, application/x-www-form-urlencoded, application/octet-stream, application/pdf, application/rss+xml, application/xhtml+xml, application/xml, image/gif, image/jpeg, image/png, text/event-stream, text/html, text/markdown, text/plain, text/xml]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.kingdee.inte.teamwork.common.ViewResult@3af6be93]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-9] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - GET "/lib/axios.min.map", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/**", "classpath:/static/", "classpath:/public/**"]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;charset=UTF-8', given [*/*] and supported [application/json, application/json;charset=UTF-8, application/atom+xml, application/x-www-form-urlencoded, application/octet-stream, application/pdf, application/rss+xml, application/xhtml+xml, application/xml, image/gif, image/jpeg, image/png, text/event-stream, text/html, text/markdown, text/plain, text/xml]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Fri Aug 07 13:22:37 CST 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
+[DEBUG] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404

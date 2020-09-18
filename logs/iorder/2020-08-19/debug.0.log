@@ -1,0 +1,4 @@
+[DEBUG] 2020-08-18 09:35:21 [Thread-15] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d348eae, started on Tue Aug 18 09:35:21 CST 2020
+[DEBUG] 2020-08-18 09:35:21 [Thread-15] o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[DEBUG] 2020-08-18 09:35:21 [Thread-15] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+[DEBUG] 2020-08-18 09:35:21 [Thread-15] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans

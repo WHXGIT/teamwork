@@ -1,0 +1,5 @@
+[WARN ] 2020-08-04 09:09:01 [http-nio-10001-exec-3] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+[WARN ] 2020-08-04 09:09:01 [http-nio-10001-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+[WARN ] 2020-08-04 09:09:01 [http-nio-10001-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+[WARN ] 2020-08-04 09:09:01 [http-nio-10001-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+[WARN ] 2020-08-04 09:54:20 [http-nio-10001-exec-3] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]

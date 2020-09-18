@@ -1,0 +1,16 @@
+[INFO ] 2020-08-06 18:02:42 [Thread-349] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2020-08-12 13:48:32 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-12 13:48:32 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1719 ms
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-12 13:48:32 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 2.093 seconds (JVM running for 520145.913)
+[INFO ] 2020-08-12 13:48:32 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

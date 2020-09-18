@@ -1,0 +1,932 @@
+[INFO ] 2020-08-06 13:19:28 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:19:28 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;D:\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;D:\ideal\IntelliJ IDEA 2020.2\bin;;.]
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2195 ms
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:19:28 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:19:28 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 5.136 seconds (JVM running for 6.877)
+[INFO ] 2020-08-06 13:21:24 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:21:24 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 375 ms
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:21:24 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.669 seconds (JVM running for 118.894)
+[INFO ] 2020-08-06 13:21:24 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:22:04 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:22:04 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 367 ms
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:22:04 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.656 seconds (JVM running for 159.464)
+[INFO ] 2020-08-06 13:22:04 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:22:04 [http-nio-10001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:22:04 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:22:04 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-08-06 13:23:18 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:23:18 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 439 ms
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:23:18 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.737 seconds (JVM running for 233.413)
+[INFO ] 2020-08-06 13:23:18 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:23:18 [http-nio-10001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:23:18 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:23:18 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[INFO ] 2020-08-06 13:23:34 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:23:34 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 350 ms
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:23:34 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.638 seconds (JVM running for 249.155)
+[INFO ] 2020-08-06 13:23:34 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:23:34 [http-nio-10001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:23:34 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:23:34 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2020-08-06 13:26:41 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:26:41 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 455 ms
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:26:41 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.796 seconds (JVM running for 435.94)
+[INFO ] 2020-08-06 13:26:41 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:26:41 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:26:41 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:26:41 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2020-08-06 13:28:47 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:28:47 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 331 ms
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:28:47 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.596 seconds (JVM running for 562.624)
+[INFO ] 2020-08-06 13:28:47 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:28:47 [http-nio-10001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:28:47 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:28:47 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2020-08-06 13:31:17 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:31:17 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 337 ms
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:31:17 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.614 seconds (JVM running for 712.22)
+[INFO ] 2020-08-06 13:31:17 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:31:17 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:31:17 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:31:17 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2020-08-06 13:36:27 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:36:27 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 611 ms
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:36:27 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 1.045 seconds (JVM running for 1022.563)
+[INFO ] 2020-08-06 13:36:27 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:36:27 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:36:27 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:36:27 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2020-08-06 13:37:56 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:37:56 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 343 ms
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:37:56 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.633 seconds (JVM running for 1110.972)
+[INFO ] 2020-08-06 13:37:56 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:37:56 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:37:56 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:37:56 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-08-06 13:38:35 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:38:35 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 334 ms
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:38:35 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.61 seconds (JVM running for 1150.564)
+[INFO ] 2020-08-06 13:38:35 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:38:35 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:38:35 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:38:35 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-08-06 13:40:42 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:40:42 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 328 ms
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:40:42 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.58 seconds (JVM running for 1277.189)
+[INFO ] 2020-08-06 13:40:42 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:42:20 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:42:20 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 317 ms
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:42:20 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.567 seconds (JVM running for 1375.669)
+[INFO ] 2020-08-06 13:42:20 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:42:20 [http-nio-10001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:42:20 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:42:20 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 13:43:04 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:43:04 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 362 ms
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:43:04 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.612 seconds (JVM running for 1419.494)
+[INFO ] 2020-08-06 13:43:04 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:48:23 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:48:23 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 382 ms
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:48:23 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.705 seconds (JVM running for 1738.035)
+[INFO ] 2020-08-06 13:48:23 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:48:23 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:48:23 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:48:23 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2020-08-06 13:51:51 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:51:51 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 392 ms
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:51:51 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.734 seconds (JVM running for 1946.737)
+[INFO ] 2020-08-06 13:51:51 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:51:51 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:51:51 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:51:51 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2020-08-06 13:52:36 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:52:36 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 308 ms
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:52:36 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.559 seconds (JVM running for 1991.43)
+[INFO ] 2020-08-06 13:52:36 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:52:36 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:52:36 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:52:36 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2020-08-06 13:54:15 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:54:15 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 349 ms
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:54:15 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.589 seconds (JVM running for 2090.051)
+[INFO ] 2020-08-06 13:54:15 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:54:34 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:54:34 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 309 ms
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:54:34 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.553 seconds (JVM running for 2108.812)
+[INFO ] 2020-08-06 13:54:34 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:54:39 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:54:39 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 477 ms
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:54:39 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.734 seconds (JVM running for 2114.324)
+[INFO ] 2020-08-06 13:54:39 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:54:39 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:54:39 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:54:39 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 13:59:13 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:59:13 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 376 ms
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:59:13 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.639 seconds (JVM running for 2388.39)
+[INFO ] 2020-08-06 13:59:13 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:59:44 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 13:59:44 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 363 ms
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 13:59:44 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.642 seconds (JVM running for 2419.713)
+[INFO ] 2020-08-06 13:59:44 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 13:59:44 [http-nio-10001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:59:44 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 13:59:44 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 14:00:54 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:00:54 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 381 ms
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:00:54 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.652 seconds (JVM running for 2489.465)
+[INFO ] 2020-08-06 14:00:54 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:00:54 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:00:54 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:00:54 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 14:04:04 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:04:04 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 377 ms
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:04:04 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.639 seconds (JVM running for 2679.438)
+[INFO ] 2020-08-06 14:04:04 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:04:04 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:04:04 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:04:04 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2020-08-06 14:04:32 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:04:32 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 331 ms
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:04:32 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.587 seconds (JVM running for 2707.603)
+[INFO ] 2020-08-06 14:04:32 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:04:32 [http-nio-10001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:04:32 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:04:32 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 14:15:26 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:15:26 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 317 ms
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:15:26 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.571 seconds (JVM running for 3361.108)
+[INFO ] 2020-08-06 14:15:26 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:15:26 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:15:26 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:15:26 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 14:18:54 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:18:54 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 335 ms
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:18:54 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.725 seconds (JVM running for 3569.533)
+[INFO ] 2020-08-06 14:18:54 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:18:54 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:18:54 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:18:54 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 14:20:18 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:20:18 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 324 ms
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:20:18 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.569 seconds (JVM running for 3653.692)
+[INFO ] 2020-08-06 14:20:18 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:20:50 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:20:50 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 328 ms
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:20:50 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.594 seconds (JVM running for 3684.928)
+[INFO ] 2020-08-06 14:20:50 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:20:50 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:20:50 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:20:50 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 14:32:47 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:32:47 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 326 ms
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:32:47 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.57 seconds (JVM running for 4401.971)
+[INFO ] 2020-08-06 14:32:47 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:34:21 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:34:21 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 336 ms
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:34:21 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.595 seconds (JVM running for 4496.3)
+[INFO ] 2020-08-06 14:34:21 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:34:28 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:34:28 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 334 ms
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:34:28 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.613 seconds (JVM running for 4503.732)
+[INFO ] 2020-08-06 14:34:28 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:35:17 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:35:17 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 307 ms
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:35:17 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.547 seconds (JVM running for 4552.438)
+[INFO ] 2020-08-06 14:35:17 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:35:59 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:35:59 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 392 ms
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:35:59 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.653 seconds (JVM running for 4594.184)
+[INFO ] 2020-08-06 14:35:59 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:36:12 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:36:12 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 296 ms
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:36:12 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.54 seconds (JVM running for 4606.696)
+[INFO ] 2020-08-06 14:36:12 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:36:47 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:36:47 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 310 ms
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:36:47 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.591 seconds (JVM running for 4642.068)
+[INFO ] 2020-08-06 14:36:47 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:37:17 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:37:17 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 340 ms
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:37:17 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.599 seconds (JVM running for 4672.34)
+[INFO ] 2020-08-06 14:37:17 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:37:17 [http-nio-10001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:37:17 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:37:17 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2020-08-06 14:39:07 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:39:07 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 310 ms
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:39:07 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.558 seconds (JVM running for 4782.392)
+[INFO ] 2020-08-06 14:39:07 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:41:03 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:41:03 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 341 ms
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:41:03 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.589 seconds (JVM running for 4898.461)
+[INFO ] 2020-08-06 14:41:03 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:41:21 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:41:21 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 335 ms
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:41:21 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.582 seconds (JVM running for 4916.46)
+[INFO ] 2020-08-06 14:41:21 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:41:21 [http-nio-10001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:41:21 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:41:21 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 14:46:11 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:46:11 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 301 ms
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:46:11 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.546 seconds (JVM running for 5205.889)
+[INFO ] 2020-08-06 14:46:11 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:46:11 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:46:11 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:46:11 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2020-08-06 14:47:21 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:47:21 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 342 ms
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:47:21 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.612 seconds (JVM running for 5276.549)
+[INFO ] 2020-08-06 14:47:21 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:47:21 [http-nio-10001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:47:21 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:47:21 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2020-08-06 14:47:49 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:47:49 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 324 ms
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:47:49 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.567 seconds (JVM running for 5303.709)
+[INFO ] 2020-08-06 14:47:49 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:49:11 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:49:11 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 392 ms
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:49:11 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.64 seconds (JVM running for 5385.765)
+[INFO ] 2020-08-06 14:49:11 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:49:11 [http-nio-10001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:49:11 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:49:11 [http-nio-10001-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2020-08-06 14:55:09 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:55:09 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 351 ms
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:55:09 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.598 seconds (JVM running for 5744.266)
+[INFO ] 2020-08-06 14:55:09 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:55:36 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:55:36 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 357 ms
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:55:36 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.745 seconds (JVM running for 5771.623)
+[INFO ] 2020-08-06 14:55:36 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:55:36 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:55:36 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:55:36 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2020-08-06 14:56:32 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:56:32 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 328 ms
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:56:32 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.567 seconds (JVM running for 5827.104)
+[INFO ] 2020-08-06 14:56:32 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:56:50 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:56:50 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 375 ms
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:56:50 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.661 seconds (JVM running for 5845.024)
+[INFO ] 2020-08-06 14:56:50 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:56:50 [http-nio-10001-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:56:50 [http-nio-10001-exec-4] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:56:50 [http-nio-10001-exec-4] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2020-08-06 14:58:45 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 14:58:45 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 487 ms
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 14:58:45 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.768 seconds (JVM running for 5960.694)
+[INFO ] 2020-08-06 14:58:45 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 14:58:45 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:58:45 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 14:58:45 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-08-06 15:22:31 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 15:22:31 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 330 ms
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 15:22:31 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.577 seconds (JVM running for 7386.015)
+[INFO ] 2020-08-06 15:22:31 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 16:11:55 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 16:11:55 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 372 ms
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 16:11:55 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.627 seconds (JVM running for 10350.404)
+[INFO ] 2020-08-06 16:11:55 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 16:11:55 [http-nio-10001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-08-06 16:11:55 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-08-06 16:11:55 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2020-08-06 16:12:48 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 16:12:48 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 353 ms
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 16:12:48 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.636 seconds (JVM running for 10403.544)
+[INFO ] 2020-08-06 16:12:48 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 17:35:36 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 17:35:36 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 356 ms
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 17:35:36 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.65 seconds (JVM running for 15371.537)
+[INFO ] 2020-08-06 17:35:36 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 17:53:12 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 17:53:12 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 332 ms
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 17:53:12 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.58 seconds (JVM running for 16426.769)
+[INFO ] 2020-08-06 17:53:12 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 17:54:25 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 17:54:25 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 339 ms
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 17:54:25 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.602 seconds (JVM running for 16500.482)
+[INFO ] 2020-08-06 17:54:25 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-08-06 18:02:42 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 9872 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-08-06 18:02:42 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 344 ms
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-08-06 18:02:42 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.61 seconds (JVM running for 16997.374)
+[INFO ] 2020-08-06 18:02:42 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

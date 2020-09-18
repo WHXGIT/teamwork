@@ -1,0 +1,117 @@
+[INFO ] 2020-07-30 09:17:01 [main] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 90672 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-30 09:17:01 [main] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-30 09:17:01 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-07-30 09:17:01 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-07-30 09:17:01 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-30 09:17:01 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-30 09:17:01 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-30 09:17:01 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-30 09:17:01 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 2020-07-30 09:17:01 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-30 09:17:01 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2990 ms
+[INFO ] 2020-07-30 09:17:01 [main] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-30 09:17:01 [main] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-30 09:17:01 [main] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-30 09:17:01 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-30 09:17:01 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-30 09:17:01 [main] c.kingdee.inte.teamwork.Application - Started Application in 6.772 seconds (JVM running for 12.738)
+[INFO ] 2020-07-30 09:17:01 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-07-30 09:17:01 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-07-30 09:17:01 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+[INFO ] 2020-07-30 09:22:47 [main] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 91440 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-30 09:22:47 [main] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-30 09:22:47 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-07-30 09:22:47 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-07-30 09:22:47 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-30 09:22:47 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-30 09:22:47 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-30 09:22:47 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-30 09:22:47 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 2020-07-30 09:22:47 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-30 09:22:47 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1911 ms
+[INFO ] 2020-07-30 09:22:47 [main] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-30 09:22:47 [main] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-30 09:22:47 [main] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-30 09:22:47 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-30 09:22:47 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-30 09:22:47 [main] c.kingdee.inte.teamwork.Application - Started Application in 3.991 seconds (JVM running for 7.015)
+[INFO ] 2020-07-30 09:22:47 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-07-30 09:22:47 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-07-30 09:22:47 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+[INFO ] 2020-07-30 13:38:34 [main] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 91132 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-30 13:38:34 [main] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-30 13:38:34 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-07-30 13:38:34 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-07-30 13:38:34 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-30 13:38:34 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-30 13:38:34 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-30 13:38:34 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-30 13:38:34 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 2020-07-30 13:38:34 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-30 13:38:34 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6078 ms
+[INFO ] 2020-07-30 13:38:34 [main] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-30 13:38:34 [main] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-30 13:38:34 [main] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-30 13:38:34 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-30 13:38:34 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-30 13:38:34 [main] c.kingdee.inte.teamwork.Application - Started Application in 10.916 seconds (JVM running for 18.27)
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.10399043123158,105.44954274777457， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南州安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南州安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南州安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.10399043123158,105.44954274777457， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州省黔西南布依族苗族自治州安龙县市府大道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州省黔西南布依族苗族自治州安龙县市府大道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-10] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州省黔西南布依族苗族自治州安龙县市府大道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.103597439764744,105.4543541520336， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.103597439764744,105.4543541520336， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：布依族苗族自治州安龙县市府大道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.10399043123158,105.44954274777457， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西安龙西凤街道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南安龙西凤街道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-10] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：24.966362350467605,118.39257197205464， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南安龙栖凤街道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：栖凤街道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：栖凤街道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南安龙栖凤街道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南州安龙栖凤街道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.10399043123158,105.44954274777457， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南安龙栖凤街道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南安龙栖凤街道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：24.966362350467605,118.39257197205464， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.10399043123158,105.44954274777457， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南布依族苗族自治州， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：27.014344747084042,106.03857397725803， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南布依族苗族自治州安龙， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.10399043123158,105.44954274777457， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南布依族苗族自治州安龙县栖凤街道工业园区龙城大道， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.13267139292406,105.43284343609545， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-10] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南布依族苗族自治州安龙县栖凤街道工业园区龙城大道旁温氏， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南布依族苗族自治州安龙县栖凤街道工业园区龙城大道旁温氏， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.13267139292406,105.43284343609545， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南布依族苗族自治州安龙县栖凤街道工业园区龙城大道旁温氏畜牧有限公司， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：温氏畜牧有限公司， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：30.017552450204057,107.10959373534735， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南布依族苗族自治州安龙县栖凤街道工业园区， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.10399043123158,105.44954274777457， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南布依族苗族自治州安龙县栖凤街道工业园区龙城大道旁温氏畜牧有限公司， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-10] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.13267139292406,105.43284343609545， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州黔西南布依族苗族自治州安龙县栖凤街道工业园区， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.10399043123158,105.44954274777457， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州省黔西南布依族苗族自治州安龙县市府大道温氏畜牧有限公司， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：25.100692142290903,105.44491476761924， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州省黔西南布依族苗族自治州安龙县温氏畜牧有限公司， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州省黔西南布依族苗族自治州安龙县温氏畜牧有限公司， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州省黔西南布依族苗族自治州安龙县温氏畜牧有限公司， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州省黔西南布依族苗族自治州安龙县， 服务提供者：Baidu
+[INFO ] 2020-07-30 13:38:34 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：贵州省黔西南布依族苗族自治州安龙县温氏畜牧有限公司， 服务提供者：Baidu

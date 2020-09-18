@@ -1,0 +1,255 @@
+[INFO ] 2020-07-29 09:05:01 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 88396 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 09:05:01 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2409 ms
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 09:05:01 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 09:05:01 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 5.61 seconds (JVM running for 7.365)
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：中国， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：中国河北， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：39.15348514470478，117.20359278135501， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：39.15348514470478,117.20359278135501， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：中国河北省， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-10] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：河北省， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：38.04320164520046,114.53659630531568， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：河北省石家庄， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：38.052097109846855,114.46902163264978， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：河北省石家庄市桥西区泰华街48-1， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：38.052313520816256,114.46855348073326， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：河北省石家庄市， 服务提供者：Baidu
+[INFO ] 2020-07-29 09:05:01 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：河北省石家庄市， 服务提供者：Baidu
+[INFO ] 2020-07-29 11:16:46 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 88396 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 11:16:46 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 401 ms
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 11:16:46 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.756 seconds (JVM running for 7908.498)
+[INFO ] 2020-07-29 11:16:46 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-07-29 11:21:51 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 88396 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 11:21:51 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 540 ms
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 11:21:51 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.884 seconds (JVM running for 8214.017)
+[INFO ] 2020-07-29 11:21:51 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-07-29 11:37:45 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 88396 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 11:37:45 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 11:37:45 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 11:37:45 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:37:45 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 11:37:45 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 11:37:45 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 11:37:45 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 537 ms
+[INFO ] 2020-07-29 11:37:45 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:37:45 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:37:45 [restartedMain] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2020-07-29 11:37:48 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 88396 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 11:37:48 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 412 ms
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 11:37:48 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.713 seconds (JVM running for 9171.11)
+[INFO ] 2020-07-29 11:37:48 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-07-29 11:38:33 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 88396 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 11:38:33 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 545 ms
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 11:38:33 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.884 seconds (JVM running for 9216.462)
+[INFO ] 2020-07-29 11:38:33 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-07-29 11:40:06 [restartedMain] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 88396 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 11:40:06 [restartedMain] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 572 ms
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 11:40:06 [restartedMain] c.kingdee.inte.teamwork.Application - Started Application in 0.869 seconds (JVM running for 9308.607)
+[INFO ] 2020-07-29 11:40:06 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-07-29 11:40:51 [main] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 45204 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 11:40:51 [main] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 11:40:51 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-07-29 11:40:51 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-07-29 11:40:51 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 11:40:51 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:40:51 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 11:40:51 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 11:40:51 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 2020-07-29 11:40:51 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 11:40:51 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2659 ms
+[INFO ] 2020-07-29 11:40:51 [main] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:40:51 [main] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 11:40:51 [main] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 11:40:51 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 11:40:51 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 11:40:51 [main] c.kingdee.inte.teamwork.Application - Started Application in 6.339 seconds (JVM running for 11.209)
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-3] o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：北京， 服务提供者：Baidu
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：， 服务提供者：2
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：， 服务提供者：2
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：as扥， 服务提供者：1
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：， 服务提供者：Baidu
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：， 服务提供者：Baidu
+[INFO ] 2020-07-29 11:40:51 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：sdf， 服务提供者：Baidu
+[INFO ] 2020-07-29 13:26:18 [main] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 90356 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 13:26:18 [main] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 13:26:18 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-07-29 13:26:18 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-07-29 13:26:18 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 13:26:18 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 13:26:18 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 13:26:18 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 13:26:18 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 2020-07-29 13:26:18 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 13:26:18 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2277 ms
+[INFO ] 2020-07-29 13:26:18 [main] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 13:26:18 [main] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 13:26:18 [main] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 13:26:18 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 13:26:18 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 13:26:18 [main] c.kingdee.inte.teamwork.Application - Started Application in 4.909 seconds (JVM running for 7.561)
+[INFO ] 2020-07-29 13:26:18 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-07-29 13:26:18 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-07-29 13:26:18 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+[INFO ] 2020-07-29 13:26:18 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：北京， 服务提供者：null
+[INFO ] 2020-07-29 13:26:18 [http-nio-10001-exec-5] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2020-07-29 13:26:18 [Thread-34] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2020-07-29 17:51:52 [main] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 89520 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 17:51:52 [main] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 17:51:52 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-07-29 17:51:52 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-07-29 17:51:52 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 17:51:52 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 17:51:52 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 17:51:52 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 17:51:52 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 2020-07-29 17:51:52 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 17:51:52 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2701 ms
+[INFO ] 2020-07-29 17:51:52 [main] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 17:51:52 [main] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 17:51:52 [main] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 17:51:52 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 17:51:52 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 17:51:52 [main] c.kingdee.inte.teamwork.Application - Started Application in 6.118 seconds (JVM running for 10.305)
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：北京， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：北京， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：null， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-10] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：39.910924547299565,116.4133836971231， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：德国柏林市， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：23.13840018258247,113.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：23.13840018258247,113.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：23.13840018258247,113.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：23.13840018258247,113.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：23.13840018258247,113.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：西藏， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-10] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：石河子， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：44.31197647806301,86.08688567193293， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：哈尔滨， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,126.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,126.54161509031663， 服务提供者：AutoNavi
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,126.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：83.13840018258247,113.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：83.13840018258247,13.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：33.13840018258247,13.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-10] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：33.13840018258247,13.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：33.13840018258247,13.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：33.13840018258247,113.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：33.13840018258247,113.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：63.13840018258247,113.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,126.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,126.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-8] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,126.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-2] c.k.i.t.service.impl.AddrServiceImpl - 地址服务， 地址：Mirninskiy u, Sakha Republic, Russia， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-7] c.k.i.t.service.impl.AddrServiceImpl - 经纬度， 坐标：23.13840018258247,13.32980808732859， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-10] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,126.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-5] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,16.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-6] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,66.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-9] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,90.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-4] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：45.808825827952184,0.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-3] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：185.808825827952184,0.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 17:51:52 [http-nio-10001-exec-1] c.k.i.t.service.impl.AddrServiceImpl - 地址， 地址或坐标：0.808825827952184,0.54161509031663， 服务提供者：Baidu
+[INFO ] 2020-07-29 18:52:50 [main] c.kingdee.inte.teamwork.Application - Starting Application on ZBTS2003-04194 with PID 88564 (E:\ideaWorkspace\teamwork\target\classes started by Administrator in E:\ideaWorkspace\teamwork)
+[INFO ] 2020-07-29 18:52:50 [main] c.kingdee.inte.teamwork.Application - The following profiles are active: dev
+[INFO ] 2020-07-29 18:52:50 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-07-29 18:52:50 [main] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-07-29 18:52:50 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10001 (http)
+[INFO ] 2020-07-29 18:52:50 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 18:52:50 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-07-29 18:52:50 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-07-29 18:52:50 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\SmartDepServer;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;D:\gradle-4.10\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 2020-07-29 18:52:50 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-07-29 18:52:50 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2137 ms
+[INFO ] 2020-07-29 18:52:50 [main] o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[INFO ] 2020-07-29 18:52:50 [main] o.s.b.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+[INFO ] 2020-07-29 18:52:50 [main] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-07-29 18:52:50 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10001"]
+[INFO ] 2020-07-29 18:52:50 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 10001 (http) with context path ''
+[INFO ] 2020-07-29 18:52:50 [main] c.kingdee.inte.teamwork.Application - Started Application in 4.681 seconds (JVM running for 8.186)

@@ -1,0 +1,183 @@
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingdee.inte.teamwork.mapper.CodeSubmitListMapper">
+	<resultMap id="CodeSubmitListMap" type="com.kingdee.inte.teamwork.pojo.CodeSubmitList">
+		<result property="id" column="fid" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="createTime" column="fcreate_time" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="updateTime" column="fupdate_time" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="creator" column="fcreator" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="submitTarget" column="fsubmit_target" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="bugNo" column="fbug_no" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="requireDesc" column="frequire_desc" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="codeModifyDesc" column="fcode_modify_desc" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="scope" column="fscope" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="isSelfTest" column="fis_self_test" jdbcType="NUMERIC" javaType="java.lang.Integer"/>
+		<result property="smokeTest" column="fsmoke_test" jdbcType="NUMERIC" javaType="java.lang.Integer"/>
+		<result property="javaFiles" column="fjava_files" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="metaFiles" column="fmeta_files" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="dbScript" column="fdb_script" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="status" column="fstatus" jdbcType="NUMERIC" javaType="java.lang.Integer"/>
+		<result property="remark" column="fremark" jdbcType="VARCHAR" javaType="java.lang.String"/>
+	</resultMap>
+
+
+	<update
+			id="update"
+			parameterType="com.kingdee.inte.teamwork.pojo.CodeSubmitList"
+			flushCache="true"
+			statementType="PREPARED"
+			timeout="20">
+		UPDATE t_int_code_reqstion SET
+		fcreator = #{codeSubmitList.creator, jdbcType=VARCHAR},
+		fsubmit_target = #{codeSubmitList.submitTarget, jdbcType=VARCHAR},
+		fbug_no = #{codeSubmitList.bugNo, jdbcType=VARCHAR},
+		frequire_desc = #{codeSubmitList.requireDesc, jdbcType=VARCHAR},
+		fcode_modify_desc = #{codeSubmitList.codeModifyDesc, jdbcType=VARCHAR},
+		fscope =#{codeSubmitList.scope, jdbcType=VARCHAR},
+		fis_self_test = #{codeSubmitList.isSelfTest, jdbcType=NUMERIC},
+		fsmoke_test = #{codeSubmitList.smokeTest, jdbcType=NUMERIC},
+		fjava_files = #{codeSubmitList.javaFiles, jdbcType=VARCHAR},
+		fmeta_files = #{codeSubmitList.metaFiles, jdbcType=VARCHAR},
+		fdb_script = #{codeSubmitList.dbScript, jdbcType=VARCHAR},
+		fstatus = #{codeSubmitList.status, jdbcType=NUMERIC},
+		fremark = #{codeSubmitList.remark, jdbcType=VARCHAR}
+		where fid = #{codeSubmitList.id, jdbcType=VARCHAR}
+	</update>
+	<select id="listCodeSubmitList"
+	        resultMap="CodeSubmitListMap"
+	        flushCache="false"
+	        useCache="true"
+	        timeout="10000"
+	        fetchSize="256"
+	        statementType="PREPARED"
+	        resultSetType="FORWARD_ONLY">
+		<if test='keyword != null and keyword != ""'>
+			<bind name="pattern" value="'%' + keyword + '%'"/>
+		</if>
+		SELECT * FROM t_int_code_reqstion
+		<where>
+			fstatus &lt;&gt; 3
+			<if test='creator != null and creator != ""'>
+				and fcreator = #{creator}
+			</if>
+			<if test='bugNo != null and bugNo != ""'>
+				and fbug_no = #{bugNo}
+			</if>
+			<if test='startTime != null and startTime != "" and endTime != null and endTime != ""'>
+				and fcreate_time between STR_TO_DATE('${startTime}','%Y-%m-%d %H:%i:%s') and
+				STR_TO_DATE('${endTime}','%Y-%m-%d %H:%i:%s')
+			</if>
+			<if test='keyword != null and keyword != ""'>
+				and(frequire_desc like #{pattern}
+				or fcode_modify_desc like #{pattern}
+				or fscope like #{pattern}
+				or fjava_files like #{pattern}
+				or fmeta_files like #{pattern}
+				or fdb_script like #{pattern}
+				or fremark like #{pattern})
+			</if>
+		</where>
+		order by fcreate_time desc
+	</select>
+
+	<select id="downloadCodeSubmitList"
+	        resultMap="CodeSubmitListMap"
+	        flushCache="false"
+	        useCache="true"
+	        timeout="10000"
+	        fetchSize="256"
+	        statementType="PREPARED"
+	        resultSetType="FORWARD_ONLY">
+		<if test='keyword != null and keyword != ""'>
+			<bind name="pattern" value="'%' + keyword + '%'"/>
+		</if>
+		SELECT * FROM t_int_code_reqstion
+		<where>
+			fstatus &lt;&gt; 3
+			<if test='creator != null and creator != ""'>
+				and fcreator = #{creator}
+			</if>
+			<if test='bugNo != null and bugNo != ""'>
+				and fbug_no = #{bugNo}
+			</if>
+			<if test='startTime != null and startTime != "" and endTime != null and endTime != ""'>
+				and fcreate_time between STR_TO_DATE('${startTime}','%Y-%m-%d %H:%i:%s') and
+				STR_TO_DATE('${endTime}','%Y-%m-%d %H:%i:%s')
+			</if>
+			<if test='keyword != null and keyword != ""'>
+				and(frequire_desc like #{pattern}
+				or fcode_modify_desc like #{pattern}
+				or fscope like #{pattern}
+				or fjava_files like #{pattern}
+				or fmeta_files like #{pattern}
+				or fdb_script like #{pattern}
+				or fremark like #{pattern})
+			</if>
+		</where>
+		order by fcreate_time desc
+	</select>
+
+	<update
+			id="finishList"
+			parameterType="java.lang.String"
+			flushCache="true"
+			statementType="PREPARED"
+			timeout="20">
+		UPDATE t_int_code_reqstion SET fstatus = 1 WHERE fid = #{id}
+	</update>
+
+	<update
+			id="giveUpList"
+			parameterType="java.lang.String"
+			flushCache="true"
+			statementType="PREPARED"
+			timeout="20">
+		UPDATE t_int_code_reqstion SET fstatus = 2 WHERE fid = #{id}
+	</update>
+
+	<update
+			id="recoveryList"
+			parameterType="java.lang.String"
+			flushCache="true"
+			statementType="PREPARED"
+			timeout="20">
+		UPDATE t_int_code_reqstion SET fstatus = 0, fcreate_time = now() WHERE fid = #{id}
+	</update>
+	<insert
+			id="create"
+			flushCache="true"
+			statementType="PREPARED"
+			parameterType="com.kingdee.inte.teamwork.pojo.CodeSubmitList"
+			timeout="20">
+		INSERT INTO t_int_code_reqstion
+		(fid, fcreate_time, fupdate_time, fcreator, fsubmit_target, fbug_no, frequire_desc, fcode_modify_desc, fscope, fis_self_test,
+		fsmoke_test, fjava_files, fmeta_files, fdb_script, fstatus, fremark)
+		VALUES (
+			#{codeSubmitList.id, jdbcType=VARCHAR},
+			date_format(now(),'%Y-%m-%d %H:%i:%s'),
+			date_format(now(),'%Y-%m-%d %H:%i:%s'),
+			#{codeSubmitList.creator, jdbcType=VARCHAR},
+			#{codeSubmitList.submitTarget, jdbcType=VARCHAR},
+			#{codeSubmitList.bugNo, jdbcType=VARCHAR},
+			#{codeSubmitList.requireDesc, jdbcType=VARCHAR},
+			#{codeSubmitList.codeModifyDesc, jdbcType=VARCHAR},
+			#{codeSubmitList.scope, jdbcType=VARCHAR},
+			#{codeSubmitList.isSelfTest, jdbcType=NUMERIC},
+			#{codeSubmitList.smokeTest, jdbcType=NUMERIC},
+			#{codeSubmitList.javaFiles, jdbcType=VARCHAR},
+			#{codeSubmitList.metaFiles, jdbcType=VARCHAR},
+			#{codeSubmitList.dbScript, jdbcType=VARCHAR},
+			#{codeSubmitList.status, jdbcType=NUMERIC},
+			#{codeSubmitList.remark, jdbcType=VARCHAR}
+		)
+	</insert>
+	<delete
+			id="deleteCodeSubmitList"
+			parameterType="java.lang.String"
+			flushCache="true"
+			statementType="PREPARED"
+			timeout="20">
+		DELETE FROM t_int_code_reqstion WHERE fid = #{id}
+	</delete>
+</mapper>
