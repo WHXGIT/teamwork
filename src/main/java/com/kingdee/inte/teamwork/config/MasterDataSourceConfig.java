@@ -67,7 +67,7 @@ public class MasterDataSourceConfig {
 	@Primary
 	@Bean(name = "masterDatasource")
 	@ConfigurationProperties("master.datasource.druid")
-	public DruidDataSource dataSource() {
+	public DruidDataSource dataSourceDurid() {
 		return DruidDataSourceBuilder.create().build();
 	}
 
@@ -76,7 +76,7 @@ public class MasterDataSourceConfig {
 	@ConditionalOnBean(name = "masterDatasource")
 	public SqlSessionFactory sqlSessionFactory() throws Exception {
 		SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
-		sessionFactory.setDataSource(dataSource());
+		sessionFactory.setDataSource(dataSourceDurid());
 		String packageName = "com.kingdee.inte.teamwork";
 		packageName = packageName.replace(".", "/");
 		sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:" + packageName + "/mapper/*.xml"));
@@ -96,6 +96,6 @@ public class MasterDataSourceConfig {
 	@Bean(name = "masterDataSourceTransactionManager")
 	@ConditionalOnBean(name = "masterDatasource")
 	public DataSourceTransactionManager dataSourceTransactionManager() {
-		return new DataSourceTransactionManager(dataSource());
+		return new DataSourceTransactionManager(dataSourceDurid());
 	}
 }

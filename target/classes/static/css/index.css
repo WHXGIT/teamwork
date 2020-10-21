@@ -1,0 +1,15 @@
+.idx_split {
+	display: inline-flex;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.idx_split_each {
+	display: flex;
+	width: 50%;
+}
+
+.idx_split_card {
+	margin: 5px 5px;
+	width: 33%;
+}
