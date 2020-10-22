@@ -17,6 +17,7 @@ import java.util.List;
  * @date 2020/9/15 17:22
  */
 public class ChineseToPinyin {
+
 	public static void main(String[] args) {
 		String filePath = "E:\\test\\county.txt";
 		File file = new File(filePath);
