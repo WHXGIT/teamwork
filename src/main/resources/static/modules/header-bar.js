@@ -41,8 +41,8 @@ var HeaderBar = {
 	'			<el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">' +
 	'				<el-menu-item index="0">首页</el-menu-item>' +
 	'				<el-menu-item index="1">代码申请单</el-menu-item>' +
-	'				<el-menu-item index="2">配置管理</el-menu-item>' +
-	'				<el-menu-item index="3">地址服务</el-menu-item>' +
+	/*'				<el-menu-item index="2">配置管理</el-menu-item>' +*/
+	/*'				<el-menu-item index="3">地址服务</el-menu-item>' +*/
 	'			</el-menu>' +
 	'		</div>' +
 	'	</div>' +

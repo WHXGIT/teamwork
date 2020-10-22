@@ -18,10 +18,19 @@ public class Project {
 	private String localPath;
 	private String remotePath;
 	private String status;
+	private Group group;
 	private LocalDateTime createTime;
 	private LocalDateTime updateTime;
 
 	public Project() {
+	}
+
+	public Group getGroup() {
+		return group;
+	}
+
+	public void setGroup(Group group) {
+		this.group = group;
 	}
 
 	public int getOrder() {

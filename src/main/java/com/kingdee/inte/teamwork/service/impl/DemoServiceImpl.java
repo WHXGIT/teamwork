@@ -1,11 +1,12 @@
 package com.kingdee.inte.teamwork.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.kingdee.inte.teamwork.mapper.DemoMapper;
 import com.kingdee.inte.teamwork.pojo.Demo;
 import com.kingdee.inte.teamwork.service.DemoService;
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -21,6 +22,9 @@ public class DemoServiceImpl implements DemoService {
 
 	@Autowired
 	private DemoMapper demoMapper;
+
+	private static Integer uuid = 0;
+
 
 	@Override
 	public int create(Demo demo) {

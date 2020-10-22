@@ -1,0 +1,1 @@
+ALTER TABLE t_int_code_reqstion ADD fproject_id BIGINT(20) NOT NULL DEFAULT 0;

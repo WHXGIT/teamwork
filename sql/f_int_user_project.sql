@@ -18,10 +18,10 @@ SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
--- Table structure for f_int_user_project
+-- Table structure for t_int_user_project
 -- ----------------------------
-DROP TABLE IF EXISTS `f_int_user_project`;
-CREATE TABLE `f_int_user_project`  (
+DROP TABLE IF EXISTS `t_int_user_project`;
+CREATE TABLE `t_int_user_project`  (
   `fid` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
   `fuser_id` bigint(20) NOT NULL COMMENT '用户id',
   `fproject_id` bigint(20) NOT NULL COMMENT '项目id',
