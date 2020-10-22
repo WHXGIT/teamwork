@@ -16,6 +16,8 @@ var HeaderBar = {
 			this.activeIndex = '2';
 		} else if (path === '/addr-service') {
 			this.activeIndex = '3';
+		} else {
+			this.activeIndex = '0';
 		}
 	},
 	methods: {
@@ -26,6 +28,8 @@ var HeaderBar = {
 				location.href = "/config-mgt";
 			} else if (key === '3' && this.activeIndex !== '3'){
 				location.href = "/addr-service";
+			} else {
+				location.href = "/";
 			}
 		}
 	},
@@ -35,6 +39,7 @@ var HeaderBar = {
 	'		<div class="common-header-logo"></div>' +
 	'		<div class="header-nav">' +
 	'			<el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">' +
+	'				<el-menu-item index="0">首页</el-menu-item>' +
 	'				<el-menu-item index="1">代码申请单</el-menu-item>' +
 	'				<el-menu-item index="2">配置管理</el-menu-item>' +
 	'				<el-menu-item index="3">地址服务</el-menu-item>' +
