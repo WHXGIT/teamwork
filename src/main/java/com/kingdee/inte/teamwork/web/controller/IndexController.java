@@ -2,6 +2,7 @@ package com.kingdee.inte.teamwork.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * @author Andy
@@ -17,7 +18,7 @@ public class IndexController {
 		return "modules/demo/demo";
 	}
 
-	@GetMapping(value = {"/code-submit-list"})
+	@GetMapping(value = {"/code-submit-list", "/code-submit-list/{id}"})
 	public String codeSubmitList() {
 		return "modules/code-submit-list/index";
 	}

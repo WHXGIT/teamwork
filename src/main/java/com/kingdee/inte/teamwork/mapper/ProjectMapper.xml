@@ -1,19 +1,13 @@
 <!DOCTYPE mapper
 		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.kingdee.inte.teamwork.mapper.UserMapper">
-	<resultMap id="userMap" type="com.kingdee.inte.teamwork.pojo.User">
-		<result property="id" column="fid" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="username" column="fusername" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="usernameCn" column="fusername_cn" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="passwd" column="fpasswd" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="type" column="ftype" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="createTime" column="fcreate_time" jdbcType="TIMESTAMP" javaType="java.lang.String"/>
-		<result property="updateTime" column="fupdate_time" jdbcType="TIMESTAMP" javaType="java.lang.String"/>
+<mapper namespace="com.kingdee.inte.teamwork.mapper.ProjectMapper">
+	<resultMap id="projectMap" type="com.kingdee.inte.teamwork.pojo.Project">
+
 	</resultMap>
 
 	<select id="list"
-	        resultMap="userMap"
+	        resultMap="projectMap"
 	        flushCache="false"
 	        useCache="true"
 	        timeout="10000"

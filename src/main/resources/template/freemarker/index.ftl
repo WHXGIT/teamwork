@@ -3,9 +3,14 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>TeamWork</title>
+    <style type="text/css">
+		[v-cloak] {
+			display: none !important;
+		}
+    </style>
 </head>
 <body>
-<div id="app">
+<div id="app" v-cloak>
     <header-bar></header-bar>
     <div class="common-container">
         <div class="idx_split">
@@ -15,7 +20,7 @@
                          v-for="item in lanProjects"
                          :key="item.id"
                 >
-                    <div slot="header" class="clearfix">
+                    <div slot="header" class="clearfix" @click="toProject(item.id)">
                         <span style="cursor: pointer; color: #3a8ee6;">{{item.name}}</span>
                     </div>
                     <div>
@@ -31,7 +36,7 @@
                          v-for="item in i18nProjects"
                          :key="item.id"
                 >
-                    <div slot="header" class="clearfix">
+                    <div slot="header" class="clearfix" @click="toProject(item.id)">
                         <span style="cursor: pointer; color: #3a8ee6;">{{item.name}}</span>
                     </div>
                     <div>

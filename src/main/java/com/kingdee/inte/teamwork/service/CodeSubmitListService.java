@@ -15,7 +15,8 @@ import java.util.List;
 public interface CodeSubmitListService {
 	int create(CodeSubmitList codeSubmitList);
 
-	PageInfo<CodeSubmitList> listCodeSubmitList(int pageNum, int pageSize, String creator, String bugNo, String keyword, String startTime, String endTime);
+	PageInfo<CodeSubmitList> listCodeSubmitList(int pageNum, int pageSize, String creator, String bugNo, String keyword,
+	                                            String startTime, String endTime, Long projectId);
 
 	List<CodeSubmitList> downloadCodeSubmitList(String startTime, String endTime, String creator, String bugNo, String keyword);
 

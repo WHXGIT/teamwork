@@ -29,9 +29,10 @@ public class CodeSubmitListServiceImpl implements CodeSubmitListService {
 	}
 
 	@Override
-	public PageInfo<CodeSubmitList> listCodeSubmitList(int pageNum, int pageSize, String creator, String bugNo, String keyword, String startTime, String endTime) {
+	public PageInfo<CodeSubmitList> listCodeSubmitList(int pageNum, int pageSize, String creator, String bugNo,
+	                                                   String keyword, String startTime, String endTime, Long projectId) {
 		PageHelper.startPage(pageNum, pageSize);
-		List<CodeSubmitList> codeSubmitLists = mapper.listCodeSubmitList(creator, bugNo, keyword, startTime, endTime);
+		List<CodeSubmitList> codeSubmitLists = mapper.listCodeSubmitList(creator, bugNo, keyword, startTime, endTime, projectId);
 		PageInfo<CodeSubmitList> pageInfo = new PageInfo<>(codeSubmitLists);
 		return pageInfo;
 	}

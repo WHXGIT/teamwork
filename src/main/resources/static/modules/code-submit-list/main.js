@@ -164,7 +164,7 @@ var FormList = {
 		'	<el-form-item label="是否自测" prop="isSelfTest">' +
 		'		<el-switch v-model="ruleForm.isSelfTest"></el-switch>' +
 		'	</el-form-item>' +
-		'	<el-form-item label="9090冒烟测试" prop="smokeTest">' +
+		'	<el-form-item label="冒烟测试" prop="smokeTest">' +
 		'		<el-switch v-model="ruleForm.smokeTest"></el-switch>' +
 		'	</el-form-item>' +
 		'	<el-form-item label="Java文件" prop="javaFiles">' +
@@ -269,24 +269,21 @@ var app = new Vue({
 			return result;
 		}
 	},
-	created: function () {
-		this.listUsers();
-		this.getList();
-	},
 	methods: {
 		listUsers: function () {
 			var _this = this;
 			axios.get('/user/users')
-				.then(function (response) {
+				.then((response) => {
 					if (response.status === 200) {
 						var users = response.data.data;
 						_this.creators = users;
 					} else {
 						_this.$message.error('网络异常！');
 					}
-				}).catch(function (error) {
-				_this.$message.error('服务器发生异常！');
-			});
+				})
+				.catch(error => {
+					_this.$message.error('服务器发生异常！');
+				});
 		},
 		tableRowClassName: function ({row, rowIndex}) {
 			var status = row.status;
@@ -396,7 +393,9 @@ var app = new Vue({
 		getList: function () {
 			var _this = this;
 			this.loading = true;
-			axios.get('/tw-csl/list', {
+			let paths = location.pathname.split('/');
+			let id = paths.pop();
+			axios.get('/tw-csl/list' + "/" + id, {
 				params: {
 					pageNum: _this.pageInfo.pageNum,
 					pageSize: _this.pageInfo.pageSize,

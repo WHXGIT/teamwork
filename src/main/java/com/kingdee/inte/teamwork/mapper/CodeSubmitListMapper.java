@@ -21,7 +21,8 @@ public interface CodeSubmitListMapper {
 	                                        @Param("bugNo") String bugNo,
 	                                        @Param("keyword") String keyword,
 	                                        @Param("startTime") String startTime,
-	                                        @Param("endTime") String endTime);
+	                                        @Param("endTime") String endTime,
+	                                        @Param("projectId") Long projectId);
 
 	List<CodeSubmitList> downloadCodeSubmitList(@Param("startTime") String startTime,
 	                                            @Param("endTime") String endTime,

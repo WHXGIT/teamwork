@@ -26,7 +26,7 @@ public class ProjectServiceImpl implements ProjectService {
 
 	@Cacheable(value = "projects", key = "#number" + "#groupId")
 	public List<Project> list(String number, long groupId) {
-		List<Project>
+
 		return projectMapper.list(number, groupId);
 	}
 }

@@ -36,8 +36,9 @@ public class CodeSubmitListController {
 	@Autowired
 	private CodeSubmitListService service;
 
-	@GetMapping("/list")
-	public ViewResult<PageInfo<CodeSubmitList>> listCodeSubmitList(int pageNum,
+	@GetMapping({"/list", "/list/{id}"})
+	public ViewResult<PageInfo<CodeSubmitList>> listCodeSubmitList(@PathVariable(name = "id", required = false) Long projectId,
+	                                                               int pageNum,
 	                                                               int pageSize,
 	                                                               @RequestParam(required = false, name = "creator") String creator,
 	                                                               @RequestParam(required = false, name = "bugNo") String bugNo,
@@ -46,7 +47,7 @@ public class CodeSubmitListController {
 	                                                               @RequestParam(required = false, name = "endTime") String endTime) {
 		ViewResult vr = ViewResult.instance();
 		try {
-			PageInfo<CodeSubmitList> data = service.listCodeSubmitList(pageNum, pageSize, creator, bugNo, keyword, startTime, endTime);
+			PageInfo<CodeSubmitList> data = service.listCodeSubmitList(pageNum, pageSize, creator, bugNo, keyword, startTime, endTime, projectId);
 			vr.code(HttpStatusEnum.OK.code()).msg(HttpStatusEnum.OK.reasonPhraseCN()).data(data);
 		} catch (Exception e) {
 			vr.code(HttpStatusEnum.INTERNAL_SERVER_ERROR.code()).msg(HttpStatusEnum.INTERNAL_SERVER_ERROR.reasonPhraseCN()).data(null);
