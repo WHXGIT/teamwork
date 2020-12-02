@@ -14,26 +14,30 @@ import com.alibaba.excel.annotation.ExcelProperty;
 public class CodeSubmitList {
 	@ExcelIgnore
 	private String id;
-	@ExcelProperty(value = "提交时间")
-	private String createTime;
+	@ExcelProperty(value = "所属项目")
+	private String project;
 	@ExcelIgnore
 	private String updateTime;
 	@ExcelProperty(value = "提交人")
 	private String creator;
+	@ExcelProperty(value = "提交时间")
+	private String createTime;
 	@ExcelProperty(value = "提交目标")
-	private String submitTarget;
-	@ExcelProperty(value = "bug号")
-	private String bugNo;
+	private Integer submitTarget;
 	@ExcelProperty(value = "需求说明", converter = BrEnterConverter.class)
 	private String requireDesc;
 	@ExcelProperty(value = "代码修改说明", converter = BrEnterConverter.class)
 	private String codeModifyDesc;
 	@ExcelProperty(value = "影响范围", converter = BrEnterConverter.class)
 	private String scope;
-	@ExcelProperty(value = "是否自测", converter = SelfTestConverter.class)
-	private int isSelfTest;
+	@ExcelProperty(value = "Sonar扫描", converter = SmokeTestConverter.class)
+	private int sonar;
+	@ExcelProperty(value = "单元测试", converter = SmokeTestConverter.class)
+	private int unitTest;
 	@ExcelProperty(value = "冒烟测试", converter = SmokeTestConverter.class)
 	private int smokeTest;
+	@ExcelProperty(value = "代码评审", converter = SmokeTestConverter.class)
+	private int codeReview;
 	@ExcelProperty(value = "Java文件名", converter = BrEnterConverter.class)
 	private String javaFiles;
 	@ExcelProperty(value = "元数据文件", converter = BrEnterConverter.class)
@@ -72,20 +76,44 @@ public class CodeSubmitList {
 		this.creator = creator;
 	}
 
-	public String getSubmitTarget() {
+	public Integer getSubmitTarget() {
 		return submitTarget;
 	}
 
-	public void setSubmitTarget(String submitTarget) {
+	public void setSubmitTarget(Integer submitTarget) {
 		this.submitTarget = submitTarget;
 	}
 
-	public String getBugNo() {
-		return bugNo;
+	public String getProject() {
+		return project;
 	}
 
-	public void setBugNo(String bugNo) {
-		this.bugNo = bugNo;
+	public void setProject(String project) {
+		this.project = project;
+	}
+
+	public int getSonar() {
+		return sonar;
+	}
+
+	public void setSonar(int sonar) {
+		this.sonar = sonar;
+	}
+
+	public int getUnitTest() {
+		return unitTest;
+	}
+
+	public void setUnitTest(int unitTest) {
+		this.unitTest = unitTest;
+	}
+
+	public int getCodeReview() {
+		return codeReview;
+	}
+
+	public void setCodeReview(int codeReview) {
+		this.codeReview = codeReview;
 	}
 
 	public String getRequireDesc() {
@@ -110,14 +138,6 @@ public class CodeSubmitList {
 
 	public void setScope(String scope) {
 		this.scope = scope;
-	}
-
-	public int getIsSelfTest() {
-		return isSelfTest;
-	}
-
-	public void setIsSelfTest(int isSelfTest) {
-		this.isSelfTest = isSelfTest;
 	}
 
 	public int getSmokeTest() {
@@ -184,12 +204,13 @@ public class CodeSubmitList {
 				", updateTime='" + updateTime + '\'' +
 				", creator='" + creator + '\'' +
 				", submitTarget='" + submitTarget + '\'' +
-				", bugNo='" + bugNo + '\'' +
 				", requireDesc='" + requireDesc + '\'' +
 				", codeModifyDesc='" + codeModifyDesc + '\'' +
 				", scope='" + scope + '\'' +
-				", isSelfTest=" + isSelfTest +
+				", sonar=" + sonar +
+				", unitTest=" + unitTest +
 				", smokeTest=" + smokeTest +
+				", codeReview=" + codeReview +
 				", javaFiles='" + javaFiles + '\'' +
 				", metaFiles='" + metaFiles + '\'' +
 				", dbScript='" + dbScript + '\'' +

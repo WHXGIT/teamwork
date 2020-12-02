@@ -4,16 +4,18 @@
 <mapper namespace="com.kingdee.inte.teamwork.mapper.CodeSubmitListMapper">
 	<resultMap id="CodeSubmitListMap" type="com.kingdee.inte.teamwork.pojo.CodeSubmitList">
 		<result property="id" column="fid" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="creator" column="fcreator_id" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="project" column="fproject" jdbcType="VARCHAR" javaType="java.lang.String"/>
 		<result property="createTime" column="fcreate_time" jdbcType="VARCHAR" javaType="java.lang.String"/>
 		<result property="updateTime" column="fupdate_time" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="creator" column="fcreator" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="submitTarget" column="fsubmit_target" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="bugNo" column="fbug_no" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="submitTarget" column="fsubmit_target" jdbcType="NUMERIC" javaType="java.lang.Integer"/>
 		<result property="requireDesc" column="frequire_desc" jdbcType="VARCHAR" javaType="java.lang.String"/>
 		<result property="codeModifyDesc" column="fcode_modify_desc" jdbcType="VARCHAR" javaType="java.lang.String"/>
 		<result property="scope" column="fscope" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="isSelfTest" column="fis_self_test" jdbcType="NUMERIC" javaType="java.lang.Integer"/>
+		<result property="sonar" column="fsonar" jdbcType="NUMERIC" javaType="java.lang.Integer"/>
+		<result property="unitTest" column="funit_test" jdbcType="NUMERIC" javaType="java.lang.Integer"/>
 		<result property="smokeTest" column="fsmoke_test" jdbcType="NUMERIC" javaType="java.lang.Integer"/>
+		<result property="codeReview" column="fcode_review" jdbcType="NUMERIC" javaType="java.lang.Integer"/>
 		<result property="javaFiles" column="fjava_files" jdbcType="VARCHAR" javaType="java.lang.String"/>
 		<result property="metaFiles" column="fmeta_files" jdbcType="VARCHAR" javaType="java.lang.String"/>
 		<result property="dbScript" column="fdb_script" jdbcType="VARCHAR" javaType="java.lang.String"/>
@@ -55,17 +57,21 @@
 		<if test='keyword != null and keyword != ""'>
 			<bind name="pattern" value="'%' + keyword + '%'"/>
 		</if>
-		SELECT * FROM t_int_code_reqstion
+		SELECT c.*, u.fusername_cn fcreator, p.fname project FROM
+		t_int_code_reqstion c left join t_int_user u on c.fcreator_id = u.fid left join t_int_project p on c.fproject_id = p.fid
 		<where>
-			fstatus &lt;&gt; 3
+			c.fstatus &lt;&gt; 3
 			<if test='creator != null and creator != ""'>
-				and fcreator = #{creator}
+				and fcreator_id = #{creator}
 			</if>
 			<if test='projectId != null'>
 				and fproject_id = #{projectId}
 			</if>
 			<if test='bugNo != null and bugNo != ""'>
 				and fbug_no = #{bugNo}
+			</if>
+			<if test='submitTarget != null'>
+				and fsubmit_target = #{submitTarget}
 			</if>
 			<if test='startTime != null and startTime != "" and endTime != null and endTime != ""'>
 				and fcreate_time between STR_TO_DATE('${startTime}','%Y-%m-%d %H:%i:%s') and
@@ -78,10 +84,10 @@
 				or fjava_files like #{pattern}
 				or fmeta_files like #{pattern}
 				or fdb_script like #{pattern}
-				or fremark like #{pattern})
+				or c.fremark like #{pattern})
 			</if>
 		</where>
-		order by fcreate_time desc
+		order by c.fcreate_time desc
 	</select>
 
 	<select id="downloadCodeSubmitList"

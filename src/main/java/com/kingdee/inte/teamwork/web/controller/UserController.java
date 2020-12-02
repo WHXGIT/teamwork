@@ -36,7 +36,7 @@ public class UserController {
 			List<Map<String, String>> list = new ArrayList<>();
 			service.list().forEach(item -> {
 				Map<String, String> map = new HashMap<>();
-				map.put("value", item.getUsernameCn());
+				map.put("value", item.getId());
 				map.put("label", item.getUsernameCn());
 				list.add(map);
 			});

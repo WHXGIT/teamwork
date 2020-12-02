@@ -16,7 +16,7 @@ public interface CodeSubmitListService {
 	int create(CodeSubmitList codeSubmitList);
 
 	PageInfo<CodeSubmitList> listCodeSubmitList(int pageNum, int pageSize, String creator, String bugNo, String keyword,
-	                                            String startTime, String endTime, Long projectId);
+	                                            String startTime, String endTime, Long projectId,Integer submitTarget);
 
 	List<CodeSubmitList> downloadCodeSubmitList(String startTime, String endTime, String creator, String bugNo, String keyword);
 

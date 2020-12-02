@@ -1,4 +1,0 @@
-[INFO ] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[INFO ] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-[INFO ] 2020-08-06 18:02:42 [http-nio-10001-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 108 ms
-[INFO ] 2020-08-06 18:02:42 [http-nio-10001-exec-9] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

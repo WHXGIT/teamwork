@@ -44,10 +44,11 @@ public class CodeSubmitListController {
 	                                                               @RequestParam(required = false, name = "bugNo") String bugNo,
 	                                                               @RequestParam(required = false, name = "keyword") String keyword,
 	                                                               @RequestParam(required = false, name = "startTime") String startTime,
-	                                                               @RequestParam(required = false, name = "endTime") String endTime) {
+	                                                               @RequestParam(required = false, name = "endTime") String endTime,
+	                                                               @RequestParam(required = false, name = "submitTarge") Integer submitTarget) {
 		ViewResult vr = ViewResult.instance();
 		try {
-			PageInfo<CodeSubmitList> data = service.listCodeSubmitList(pageNum, pageSize, creator, bugNo, keyword, startTime, endTime, projectId);
+			PageInfo<CodeSubmitList> data = service.listCodeSubmitList(pageNum, pageSize, creator, bugNo, keyword, startTime, endTime, projectId, submitTarget);
 			vr.code(HttpStatusEnum.OK.code()).msg(HttpStatusEnum.OK.reasonPhraseCN()).data(data);
 		} catch (Exception e) {
 			vr.code(HttpStatusEnum.INTERNAL_SERVER_ERROR.code()).msg(HttpStatusEnum.INTERNAL_SERVER_ERROR.reasonPhraseCN()).data(null);

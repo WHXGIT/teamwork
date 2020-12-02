@@ -10,11 +10,11 @@ var HeaderBar = {
 	},
 	mounted: function () {
 		var path = location.pathname;
-		if (path === "/code-submit-list") {
+		if (path.indexOf("/code-submit-list")) {
 			this.activeIndex = '1';
-		} else if (path === "/config-mgt") {
+		} else if (path.indexOf("/config-mgt")) {
 			this.activeIndex = '2';
-		} else if (path === '/addr-service') {
+		} else if (path.indexOf('/addr-service')) {
 			this.activeIndex = '3';
 		} else {
 			this.activeIndex = '0';
