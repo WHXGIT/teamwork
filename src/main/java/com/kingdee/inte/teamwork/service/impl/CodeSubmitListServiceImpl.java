@@ -25,6 +25,10 @@ public class CodeSubmitListServiceImpl implements CodeSubmitListService {
 
 	@Override
 	public int create(CodeSubmitList codeSubmitList) {
+		if (codeSubmitList.getProject() == null) {
+			// 全部， 未区分项目
+			codeSubmitList.setProject("0");
+		}
 		return mapper.create(codeSubmitList);
 	}
 
@@ -40,7 +44,7 @@ public class CodeSubmitListServiceImpl implements CodeSubmitListService {
 
 	@Override
 	public List<CodeSubmitList> downloadCodeSubmitList(String startTime, String endTime, String creator, String bugNo, String keyword) {
-		List<CodeSubmitList> codeSubmitLists = mapper.downloadCodeSubmitList(startTime,  endTime, creator, bugNo, keyword);
+		List<CodeSubmitList> codeSubmitLists = mapper.downloadCodeSubmitList(startTime, endTime, creator, bugNo, keyword);
 		return codeSubmitLists;
 	}
 

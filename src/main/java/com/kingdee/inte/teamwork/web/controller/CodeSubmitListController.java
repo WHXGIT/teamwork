@@ -45,10 +45,10 @@ public class CodeSubmitListController {
 	                                                               @RequestParam(required = false, name = "keyword") String keyword,
 	                                                               @RequestParam(required = false, name = "startTime") String startTime,
 	                                                               @RequestParam(required = false, name = "endTime") String endTime,
-	                                                               @RequestParam(required = false, name = "submitTarge") Integer submitTarget) {
+	                                                               @RequestParam(required = false, name = "requestType") Integer requestType) {
 		ViewResult vr = ViewResult.instance();
 		try {
-			PageInfo<CodeSubmitList> data = service.listCodeSubmitList(pageNum, pageSize, creator, bugNo, keyword, startTime, endTime, projectId, submitTarget);
+			PageInfo<CodeSubmitList> data = service.listCodeSubmitList(pageNum, pageSize, creator, bugNo, keyword, startTime, endTime, projectId, requestType);
 			vr.code(HttpStatusEnum.OK.code()).msg(HttpStatusEnum.OK.reasonPhraseCN()).data(data);
 		} catch (Exception e) {
 			vr.code(HttpStatusEnum.INTERNAL_SERVER_ERROR.code()).msg(HttpStatusEnum.INTERNAL_SERVER_ERROR.reasonPhraseCN()).data(null);
@@ -105,14 +105,6 @@ public class CodeSubmitListController {
 			LOGGER.error(e.getMessage(), e);
 		}
 		return vr;
-	}
-
-	private String replaceToHtmlBr(String str) {
-		String var1 = str.replace("\n", "<br/>");
-		var1 = var1.replace(",", "<br/>");
-		var1 = var1.replaceAll(" +", " ").replace(" ", "<br/>");
-		var1 = var1.replaceAll(" +", " ").replace(" ", "<br/>");
-		return var1;
 	}
 
 	@PutMapping("/code-submit-list")

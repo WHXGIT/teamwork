@@ -4,7 +4,7 @@
 <mapper namespace="com.kingdee.inte.teamwork.mapper.CodeSubmitListMapper">
 	<resultMap id="CodeSubmitListMap" type="com.kingdee.inte.teamwork.pojo.CodeSubmitList">
 		<result property="id" column="fid" jdbcType="VARCHAR" javaType="java.lang.String"/>
-		<result property="creator" column="fcreator_id" jdbcType="VARCHAR" javaType="java.lang.String"/>
+		<result property="creator" column="fcreator" jdbcType="VARCHAR" javaType="java.lang.String"/>
 		<result property="project" column="fproject" jdbcType="VARCHAR" javaType="java.lang.String"/>
 		<result property="createTime" column="fcreate_time" jdbcType="VARCHAR" javaType="java.lang.String"/>
 		<result property="updateTime" column="fupdate_time" jdbcType="VARCHAR" javaType="java.lang.String"/>
@@ -160,20 +160,21 @@
 			parameterType="com.kingdee.inte.teamwork.pojo.CodeSubmitList"
 			timeout="20">
 		INSERT INTO t_int_code_reqstion
-		(fid, fcreate_time, fupdate_time, fcreator, fsubmit_target, fbug_no, frequire_desc, fcode_modify_desc, fscope, fis_self_test,
-		fsmoke_test, fjava_files, fmeta_files, fdb_script, fstatus, fremark)
+		(fcreate_time, fupdate_time, fcreator_id, fproject_id, fsubmit_target, frequire_desc, fcode_modify_desc, fscope, fsonar,
+		fsmoke_test, fcode_review, funit_test, fjava_files, fmeta_files, fdb_script, fstatus, fremark)
 		VALUES (
-			#{codeSubmitList.id, jdbcType=VARCHAR},
 			date_format(now(),'%Y-%m-%d %H:%i:%s'),
 			date_format(now(),'%Y-%m-%d %H:%i:%s'),
-			#{codeSubmitList.creator, jdbcType=VARCHAR},
-			#{codeSubmitList.submitTarget, jdbcType=VARCHAR},
-			#{codeSubmitList.bugNo, jdbcType=VARCHAR},
+			#{codeSubmitList.creator, jdbcType=NUMERIC},
+			#{codeSubmitList.project, jdbcType=NUMERIC},
+			#{codeSubmitList.submitTarget, jdbcType=NUMERIC},
 			#{codeSubmitList.requireDesc, jdbcType=VARCHAR},
 			#{codeSubmitList.codeModifyDesc, jdbcType=VARCHAR},
 			#{codeSubmitList.scope, jdbcType=VARCHAR},
-			#{codeSubmitList.isSelfTest, jdbcType=NUMERIC},
+			#{codeSubmitList.sonar, jdbcType=NUMERIC},
 			#{codeSubmitList.smokeTest, jdbcType=NUMERIC},
+			#{codeSubmitList.unitTest, jdbcType=NUMERIC},
+			#{codeSubmitList.codeReview, jdbcType=NUMERIC},
 			#{codeSubmitList.javaFiles, jdbcType=VARCHAR},
 			#{codeSubmitList.metaFiles, jdbcType=VARCHAR},
 			#{codeSubmitList.dbScript, jdbcType=VARCHAR},
