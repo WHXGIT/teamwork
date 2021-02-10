@@ -3,6 +3,7 @@ package com.kingdee.inte.teamwork.config;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
+import com.kingdee.inte.teamwork.interceptor.IpInterceptor;
 import freemarker.template.TemplateException;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -220,5 +221,13 @@ public class WebConfig implements WebMvcConfigurer {
 		UrlBasedCorsConfigurationSource configSource = new UrlBasedCorsConfigurationSource();
 		configSource.registerCorsConfiguration("/**", config);
 		return new CorsFilter(configSource);
+	}
+
+	@Override
+	public void addInterceptors(InterceptorRegistry registry) {
+		//拦截规则：除了index，其他都拦截判断
+		// addPathPatterns 用于添加拦截规则
+		// excludePathPatterns 用户排除拦截
+		registry.addInterceptor(new IpInterceptor()).addPathPatterns("/**").excludePathPatterns("/index");
 	}
 }

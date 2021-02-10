@@ -3,6 +3,7 @@ package com.kingdee.inte.teamwork.web.controller;
 import com.kingdee.inte.teamwork.common.HttpStatusEnum;
 import com.kingdee.inte.teamwork.common.ViewResult;
 import com.kingdee.inte.teamwork.service.UserService;
+import com.kingdee.inte.teamwork.util.IpUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -30,7 +32,7 @@ public class UserController {
 	private UserService service;
 
 	@GetMapping("/users")
-	public ViewResult list() {
+	public ViewResult list(HttpServletRequest request) {
 		ViewResult vr = ViewResult.instance();
 		try {
 			List<Map<String, String>> list = new ArrayList<>();

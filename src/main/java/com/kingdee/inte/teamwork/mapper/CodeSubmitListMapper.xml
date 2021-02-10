@@ -31,14 +31,15 @@
 			statementType="PREPARED"
 			timeout="20">
 		UPDATE t_int_code_reqstion SET
-		fcreator = #{codeSubmitList.creator, jdbcType=VARCHAR},
+		fcreator_id = #{codeSubmitList.creator, jdbcType=VARCHAR},
 		fsubmit_target = #{codeSubmitList.submitTarget, jdbcType=VARCHAR},
-		fbug_no = #{codeSubmitList.bugNo, jdbcType=VARCHAR},
 		frequire_desc = #{codeSubmitList.requireDesc, jdbcType=VARCHAR},
 		fcode_modify_desc = #{codeSubmitList.codeModifyDesc, jdbcType=VARCHAR},
 		fscope =#{codeSubmitList.scope, jdbcType=VARCHAR},
-		fis_self_test = #{codeSubmitList.isSelfTest, jdbcType=NUMERIC},
+		fsonar = #{codeSubmitList.sonar, jdbcType=NUMERIC},
+		funit_test = #{codeSubmitList.unitTest, jdbcType=NUMERIC},
 		fsmoke_test = #{codeSubmitList.smokeTest, jdbcType=NUMERIC},
+		fcode_review = #{codeSubmitList.codeReview, jdbcType=NUMERIC},
 		fjava_files = #{codeSubmitList.javaFiles, jdbcType=VARCHAR},
 		fmeta_files = #{codeSubmitList.metaFiles, jdbcType=VARCHAR},
 		fdb_script = #{codeSubmitList.dbScript, jdbcType=VARCHAR},
@@ -46,6 +47,19 @@
 		fremark = #{codeSubmitList.remark, jdbcType=VARCHAR}
 		where fid = #{codeSubmitList.id, jdbcType=VARCHAR}
 	</update>
+
+	<select id="codeSubmitList"
+	        resultMap="CodeSubmitListMap"
+	        flushCache="false"
+	        useCache="true"
+	        timeout="10000"
+	        fetchSize="256"
+	        statementType="PREPARED"
+	        resultSetType="FORWARD_ONLY">
+		select t.*, t.fcreator_id fcreator from t_int_code_reqstion t where fid = #{id}
+	</select>
+
+
 	<select id="listCodeSubmitList"
 	        resultMap="CodeSubmitListMap"
 	        flushCache="false"
@@ -62,28 +76,25 @@
 		<where>
 			c.fstatus &lt;&gt; 3
 			<if test='creator != null and creator != ""'>
-				and fcreator_id = #{creator}
+				and c.fcreator_id = #{creator}
 			</if>
 			<if test='projectId != null'>
-				and fproject_id = #{projectId}
-			</if>
-			<if test='bugNo != null and bugNo != ""'>
-				and fbug_no = #{bugNo}
+				and c.fproject_id = #{projectId}
 			</if>
 			<if test='submitTarget != null'>
-				and fsubmit_target = #{submitTarget}
+				and c.fsubmit_target = #{submitTarget}
 			</if>
 			<if test='startTime != null and startTime != "" and endTime != null and endTime != ""'>
-				and fcreate_time between STR_TO_DATE('${startTime}','%Y-%m-%d %H:%i:%s') and
+				and c.fcreate_time between STR_TO_DATE('${startTime}','%Y-%m-%d %H:%i:%s') and
 				STR_TO_DATE('${endTime}','%Y-%m-%d %H:%i:%s')
 			</if>
 			<if test='keyword != null and keyword != ""'>
-				and(frequire_desc like #{pattern}
-				or fcode_modify_desc like #{pattern}
-				or fscope like #{pattern}
-				or fjava_files like #{pattern}
-				or fmeta_files like #{pattern}
-				or fdb_script like #{pattern}
+				and(c.frequire_desc like #{pattern}
+				or c.fcode_modify_desc like #{pattern}
+				or c.fscope like #{pattern}
+				or c.fjava_files like #{pattern}
+				or c.fmeta_files like #{pattern}
+				or c.fdb_script like #{pattern}
 				or c.fremark like #{pattern})
 			</if>
 		</where>

@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.net.URLEncoder;
-import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -36,8 +35,8 @@ public class CodeSubmitListController {
 	@Autowired
 	private CodeSubmitListService service;
 
-	@GetMapping({"/list", "/list/{id}"})
-	public ViewResult<PageInfo<CodeSubmitList>> listCodeSubmitList(@PathVariable(name = "id", required = false) Long projectId,
+	@GetMapping({"/list"})
+	public ViewResult<PageInfo<CodeSubmitList>> listCodeSubmitList(@RequestParam(name = "projectId", required = false) Long projectId,
 	                                                               int pageNum,
 	                                                               int pageSize,
 	                                                               @RequestParam(required = false, name = "creator") String creator,
@@ -50,6 +49,19 @@ public class CodeSubmitListController {
 		try {
 			PageInfo<CodeSubmitList> data = service.listCodeSubmitList(pageNum, pageSize, creator, bugNo, keyword, startTime, endTime, projectId, requestType);
 			vr.code(HttpStatusEnum.OK.code()).msg(HttpStatusEnum.OK.reasonPhraseCN()).data(data);
+		} catch (Exception e) {
+			vr.code(HttpStatusEnum.INTERNAL_SERVER_ERROR.code()).msg(HttpStatusEnum.INTERNAL_SERVER_ERROR.reasonPhraseCN()).data(null);
+			LOGGER.error(e.getMessage(), e);
+		}
+		return vr;
+	}
+
+	@GetMapping({"/lists/list/{id}"})
+	public ViewResult<CodeSubmitList> codeSubmitList(@PathVariable String id) {
+		ViewResult vr = ViewResult.instance();
+		try {
+			CodeSubmitList codeSubmitList = service.codeSubmitList(id);
+			vr.code(HttpStatusEnum.OK.code()).msg(HttpStatusEnum.OK.reasonPhraseCN()).data(codeSubmitList);
 		} catch (Exception e) {
 			vr.code(HttpStatusEnum.INTERNAL_SERVER_ERROR.code()).msg(HttpStatusEnum.INTERNAL_SERVER_ERROR.reasonPhraseCN()).data(null);
 			LOGGER.error(e.getMessage(), e);

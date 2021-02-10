@@ -29,4 +29,6 @@ public interface CodeSubmitListService {
 	int recoveryList(String id);
 
 	int updateCodeSubmitList(CodeSubmitList codeSubmitList);
+
+	CodeSubmitList codeSubmitList(String id);
 }

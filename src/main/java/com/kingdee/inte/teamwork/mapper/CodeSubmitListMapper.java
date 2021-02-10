@@ -40,4 +40,6 @@ public interface CodeSubmitListMapper {
 	int recoveryList(String id);
 
 	int update(@Param("codeSubmitList") CodeSubmitList codeSubmitList);
+
+	CodeSubmitList codeSubmitList(@Param("id") String id);
 }

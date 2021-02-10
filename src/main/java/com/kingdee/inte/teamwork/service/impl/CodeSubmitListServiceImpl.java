@@ -72,4 +72,9 @@ public class CodeSubmitListServiceImpl implements CodeSubmitListService {
 	public int updateCodeSubmitList(CodeSubmitList codeSubmitList) {
 		return mapper.update(codeSubmitList);
 	}
+
+	@Override
+	public CodeSubmitList codeSubmitList(String id) {
+		return mapper.codeSubmitList(id);
+	}
 }
